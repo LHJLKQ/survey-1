@@ -1,3 +1,96 @@
 <resources>
-    <string name="app_name">Survey</string>
+    <string name="app_name">SuyU</string>
+    <string name="next">Next</string>
+    <string name="finish">FINISH</string>
+
+    <string name="welcome_0">WELCOME TO</string>
+    <string name="welcome_1">TAKE PART IN OUR SURVEY!</string>
+    <string name="welcome_2">Before we start,here are things you should know:</string>
+    <string name="welcome_3">- Please be honest when making your choice.</string>
+    <string name="welcome_4">- We are just doing a reaserch so you don`t have to fake your information.</string>
+    <string name="welcome_5">- Please follow the step we designed for you an don`t skip and questions.</string>
+    <string name="welcome_6">I accept these requests</string>
+    <string name="welcome_7">LET`S START!</string>
+
+    <string name="q1_0">Question 1</string>
+    <string name="q1_1">Which brand of phone will you choose if you are going to buy new one?</string>
+    <string name="q1_2">Iphone</string>
+    <string name="q1_3">Nokia</string>
+    <string name="q1_4">Samsung</string>
+    <string name="q1_5">MI</string>
+    <string name="q1_6">Lenovo</string>
+    <string name="q1_7">Sony</string>
+    <string name="q1_8">Others</string>
+
+    <string name="q2_0">Question 2</string>
+    <string name="q2_1">How much does your phone cost?</string>
+    <string name="q2_2">Under 1000</string>
+    <string name="q2_3">1000-1999</string>
+    <string name="q2_4">2000-2999</string>
+    <string name="q2_5">3000-3999</string>
+    <string name="q2_6">More than 4000</string>
+
+    <string name="q3_0">Question 3</string>
+    <string name="q3_1">What kind of phone are you using?</string>
+    <string name="q3_2">2G</string>
+    <string name="q3_3">3G</string>
+    <string name="q3_4">4G</string>
+    <string name="q3_5">Others</string>
+
+    <string name="q4_0">Question 4</string>
+    <string name="q4_1">What functions does your phone have now?</string>
+    <string name="q4_2">Music functions</string>
+    <string name="q4_3">Photo functions</string>
+    <string name="q4_4">Game functions</string>
+    <string name="q4_5">Business functions(Word,Excel,ect.)</string>
+    <string name="q4_6">GPS functions</string>
+    <string name="q4_7">Data functions(Bluetooth,WLAN,ect.)</string>
+    <string name="q4_8">Others</string>
+
+    <string name="q5_0">Question 5</string>
+    <string name="q5_1">What functions are the most ofen used?</string>
+
+    <string name="q6_0">Question 6</string>
+    <string name="q6_1">What function do you except your phone to have in the future?</string>
+
+    <string name="q7_0">Question 7</string>
+    <string name="q7_1">In which condition will you buy a new phone?</string>
+    <string name="q7_2">When the old phone has been used for a year or two.(but it still works)</string>
+    <string name="q7_3">When the old phone has been used for more than three years.(but it still works)</string>
+    <string name="q7_4">When the old phone breaks down.</string>
+    <string name="q7_5">When a new phone is released.</string>
+    <string name="q7_6">Others</string>
+
+    <string name="q8_0">Question 8</string>
+    <string name="q8_1">Which brand of phone will you choose if you are going to buy a new one?</string>
+
+    <string name="q9_0">Question 9</string>
+    <string name="q9_1">What characteristic do yuo think is most important to evaluate a phone?</string>
+    <string name="q9_2">Appearance</string>
+    <string name="q9_3">Price</string>
+    <string name="q9_4">Performance</string>
+    <string name="q9_5">Others</string>
+
+    <string name="q10_0">Question 10</string>
+    <string name="q10_1">How old are you ?</string>
+    <string name="q10_2">Under 18</string>
+    <string name="q10_3">19-25</string>
+    <string name="q10_4">25-35</string>
+    <string name="q10_5">beyond 35</string>
+
+    <string name="q11_0">Question 11</string>
+    <string name="q11_1">What`s your gender?</string>
+    <string name="q11_2">Male</string>
+    <string name="q11_3">Female</string>
+
+    <string name="q12_0">Question 12</string>
+    <string name="q12_1">How much money do you earn per month?</string>
+    <string name="q12_2">I haven`t got a job</string>
+    <string name="q12_3">Under 3000</string>
+    <string name="q12_4">3000-5000</string>
+    <string name="q12_5">5000-10000</string>
+    <string name="q12_6">more than 10000</string>
+
+    <string name="q13_0">THANK YOU</string>
+    <string name="q13_1">FOR YOUR ANSWERS!</string>
 </resources>
