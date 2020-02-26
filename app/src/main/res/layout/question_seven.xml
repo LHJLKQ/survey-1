@@ -28,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:id="@+id/rg"
         android:layout_marginHorizontal="50dp">
 
         <RadioButton
@@ -35,6 +36,7 @@
             android:layout_height="wrap_content"
             android:text="@string/q7_2"
             android:buttonTint="@color/colorPrimary"
+
             />
         <RadioButton
             android:layout_width="wrap_content"

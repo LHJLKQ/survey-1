@@ -28,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:id="@+id/cb_0"
         android:text="@string/q4_2"
         android:buttonTint="@color/colorPrimary"
         android:layout_marginLeft="50dp"
@@ -36,6 +37,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/cb_1"
         android:layout_marginTop="10dp"
         android:text="@string/q4_3"
         android:buttonTint="@color/colorPrimary"
@@ -44,6 +46,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/cb_2"
         android:layout_marginTop="10dp"
         android:text="@string/q4_4"
         android:buttonTint="@color/colorPrimary"
@@ -53,12 +56,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:id="@+id/cb_3"
         android:text="@string/q4_5"
         android:buttonTint="@color/colorPrimary"
         android:layout_marginLeft="50dp"
         />
     <CheckBox
         android:layout_width="wrap_content"
+        android:id="@+id/cb_4"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/q4_6"
@@ -68,6 +73,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/cb_5"
         android:layout_marginTop="10dp"
         android:text="@string/q4_7"
         android:buttonTint="@color/colorPrimary"
@@ -77,6 +83,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:id="@+id/cb_6"
         android:text="@string/q4_8"
         android:buttonTint="@color/colorPrimary"
         android:layout_marginLeft="50dp"

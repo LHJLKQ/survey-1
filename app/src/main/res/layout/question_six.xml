@@ -26,6 +26,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_marginHorizontal="20dp"
+        android:id="@+id/edbox"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:textSize="30dp"
