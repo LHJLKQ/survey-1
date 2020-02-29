@@ -35,14 +35,20 @@
 
 
         />
-    <Button
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
-        android:layout_marginTop="100dp"
-        android:onClick="next"
-        android:background="@color/colorPrimary"
-        />
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:onClick="next"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary"
+            />
+    </RelativeLayout>
+
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>

@@ -57,14 +57,18 @@
         android:text="@string/welcome_6"
         android:buttonTint="@color/colorPrimary"
         />
+    `<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="420dp"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_7"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:onClick="next"
+            android:background="@color/colorPrimary"/>
+    </RelativeLayout>
 
-    <Button
-        android:layout_width="420dp"
-        android:layout_height="wrap_content"
-        android:text="@string/welcome_7"
-        android:layout_marginTop="35dp"
-        android:layout_gravity="center_horizontal"
-        android:onClick="next"
-        android:background="@color/colorPrimary"/>
     <!-- END    : Your code should be within this block -->
 </LinearLayout>

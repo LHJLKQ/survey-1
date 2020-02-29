@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.app.DownloadManager;
+import android.content.Context;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -13,6 +16,11 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONObject;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
@@ -170,4 +178,33 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void saveFile(View view) {
+        String st = Environment.getExternalStorageState();
+        File sdFile = getExternalFilesDir(null);
+        String fileNameBack = ".json";
+        String fileNameFst = "saveData";
+        int index = 0;
+        File saveData = new  File(sdFile,fileNameFst + fileNameBack);
+        while(saveData.exists()){
+            index++;
+            saveData = new  File(sdFile,fileNameFst + Integer.toString(index) +fileNameBack);
+        }
+
+        String s =  saveData.toString();
+        try {
+            FileOutputStream fout = new FileOutputStream(saveData);
+            JSONObject jo = new JSONObject();
+            //String to Json Object
+            for(int i = 0;i< str.size();i++){
+                jo.put("answer" + Integer.toString(i),str.get(i));
+            }
+            fout.write(jo.toString().getBytes());
+            Log.i("0",jo.toString());
+            fout.flush();
+            fout.close();
+            Toast.makeText(this,"保存成功",Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
