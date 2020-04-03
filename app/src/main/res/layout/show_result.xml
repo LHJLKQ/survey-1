@@ -2,185 +2,54 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDown"
     android:layout_height="match_parent">
-    <TextView
+    <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-         android:text="SurveyResult"
-        android:textColor="@color/colorBlack"
-        android:textSize="20dp"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q1_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q1"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q2_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q2"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q3_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q3"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q4_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q4"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q5_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q5"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q6_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q6"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q7_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q7"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q8_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q8"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q9_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q9"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q10_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q10"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q11_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q11"
-        android:text="I am"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorPrimary"
-        android:text="@string/q12_1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/lightbBlue"
-        android:id="@+id/awnser_q12"
-        android:text="I am"/>
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/resultLL"
+                android:gravity="center"
+                android:layout_height="wrap_content">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/save"
-            android:text="保存文件"
-            android:layout_marginBottom="5dp"
-            android:background="@color/grey"
-            android:layout_gravity="left"
-            android:onClick="saveFile"
-            android:layout_alignParentBottom="true"
-            />
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:text="@string/next"
-            android:layout_marginLeft="220dp"
-            android:layout_gravity="right"
-            android:layout_alignParentBottom="true"
-            android:background="@color/colorPrimary"
-            android:onClick="next"
-            android:layout_marginBottom="5dp"
-            />
-    </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="5dp"
+                android:background="@color/white"
+                android:onClick="saveFile"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="保存文件" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:layout_gravity="right"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/endBtn"
+                android:onClick="end"
+                android:layout_marginBottom="5dp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
 
 
 </LinearLayout>

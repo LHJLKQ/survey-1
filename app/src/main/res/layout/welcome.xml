@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:gravity="center"
     android:layout_marginHorizontal="40dp"
     >
 
@@ -11,8 +12,8 @@
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:text="@string/welcome_0"
+         android:id="@+id/_line0"
          android:textColor="@color/colorBlack"
-         android:layout_marginTop="40dp"
          android:layout_marginHorizontal="5dp"
          android:textSize="30dp"/>
 
@@ -22,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/welcome_1"
+        android:id="@+id/_line1"
         android:textColor="@color/colorBlack"
         android:layout_marginHorizontal="5dp"
         android:layout_marginTop="5dp"
@@ -30,44 +32,53 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/_line2"
         android:textSize="20dp"
         android:text="@string/welcome_2"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:id="@+id/_line3"
+        android:layout_marginTop="5dp"
         android:text="@string/welcome_3"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:id="@+id/_line4"
+        android:layout_marginTop="5dp"
         android:text="@string/welcome_4"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/_line5"
         android:text="@string/welcome_5"/>
-    <CheckBox
-        android:id="@+id/accept"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/welcome_6"
-        android:buttonTint="@color/colorPrimary"
-        />
-    `<RelativeLayout
+    `
+
+    <RelativeLayout
+        android:gravity="center_horizontal"
         android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
         android:layout_height="match_parent">
         <Button
-            android:layout_width="420dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="@string/welcome_7"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="20dp"
+            android:id="@+id/_line6"
             android:onClick="next"
-            android:background="@color/colorPrimary"/>
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"/>
+
+        <CheckBox
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:buttonTint="@color/colorPrimary"
+            android:text="@string/welcome_6" />
     </RelativeLayout>
 
     <!-- END    : Your code should be within this block -->

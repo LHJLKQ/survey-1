@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDown"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/sV"
+        android:layout_height="match_parent">
+`       <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/sV_LL">
+            </LinearLayout>
+            <Button
+                android:layout_width="240dp"
+                android:layout_height="80dp"
+                android:onClick="addQuestionEdit"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="50dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="+">
+            </Button>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="240dp"
+                    android:layout_height="100dp"
+                    android:onClick="getQAndAInfo"
+                    android:textSize="20dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/fabuBtn"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="发布问卷">
+                </Button>
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:onClick="exitCreate"
+                    android:textSize="20dp"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/exitBtn"
+                    android:background="@color/white"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="退出">
+                </Button>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

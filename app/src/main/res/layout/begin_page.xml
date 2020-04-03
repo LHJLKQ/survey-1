@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDown"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:text="填写问卷"
+        android:id="@+id/start"
+        android:onClick="startAnswer"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="25dp">
+    </Button>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="创建问卷"
+        android:id="@+id/create"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:onClick="createQuestion"
+        android:textSize="20dp">
+    </Button>
+</LinearLayout>

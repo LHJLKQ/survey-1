@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:gravity="center_horizontal"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
     <TextView
         android:layout_width="match_parent"
+        android:id="@+id/__line0"
         android:layout_height="wrap_content"
         android:text="@string/q13_0"
         android:textColor="@color/colorBlack"
@@ -20,30 +22,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/q13_1"
+        android:id="@+id/__line1"
         android:textColor="@color/colorBlack"
         android:layout_marginHorizontal="5dp"
         android:layout_marginTop="5dp"
         android:textSize="20dp"/>
 
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@mipmap/pic"
         android:layout_gravity="center_horizontal"
         />
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent">
         <Button
-            android:layout_width="match_parent"
-            android:layout_alignParentBottom="true"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="@string/finish"
-            android:layout_gravity="center_horizontal"
+            android:text="FINISH"
+            android:id="@+id/finishBtn"
+            android:layout_alignParentBottom="true"
             android:layout_marginBottom="20dp"
-            android:background="@color/colorPrimary"/>
+            android:onClick="finish"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"/>
+
 
     </RelativeLayout>
+
 
     <!-- END    : Your code should be within this block -->
 
