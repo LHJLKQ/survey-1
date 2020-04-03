@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
             JSONArray aArray = qAndA.getJSONArray("answer");
             for(int i = 0;i<aArray.length();i++){
                 RadioButton rb = new RadioButton(this);
-                rb.setText(aArray.getJSONObject(i).getString(Integer.toString(i+1)));
+                rb.setText(aArray.getJSONObject(i).getString("answer"));
                 rg.addView(rb);
             }
 
@@ -234,6 +234,7 @@ public class MainActivity extends AppCompatActivity {
             bufferedReader.close();//记得关闭
             reader.close();
             inputStream.close();
+
 
 
         } catch (MalformedURLException e) {
@@ -456,7 +457,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText aEt = (EditText)aEtLL.getChildAt(0);
                 JSONObject aObj = new JSONObject();
                 try{
-                    aObj.put(Integer.toString(j+1),aEt.getText().toString());
+                    aObj.put("answer",aEt.getText().toString());
                     aArray.put(aObj);
                 }catch (Exception e){
                 }
@@ -470,6 +471,7 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
+        Toast.makeText(this,"Release",Toast.LENGTH_SHORT).show();
         final String url = "https://yangcao.group/survey/up.php?qanda=" + qArray.toString().replace(" ","~");
         System.out.println(url);
         new Thread(new Runnable() {//创建子线程
